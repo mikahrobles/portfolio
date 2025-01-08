@@ -1,0 +1,140 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body Styling with Background Image */
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+    background-image: url(https://www.bing.com/images/search?view=detailV2&ccid=B4Micgc7&id=3D4868E086BC4A03C686132136A910B12D86AF8D&thid=OIP.B4Micgc7qkbJMq5jFXWNogHaHa&mediaurl=https%3a%2f%2fstatic.vecteezy.com%2fsystem%2fresources%2fpreviews%2f015%2f577%2f247%2fnon_2x%2ffrowning-sad-face-large-size-of-yellow-emoji-smile-free-vector.jpg&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.07832272073baa46c932ae6315758da2%3frik%3dja%252bGLbEQqTYhEw%26pid%3dImgRaw%26r%3d0&exph=980&expw=980&q=sad&simid=608001386730367206&FORM=IRPRST&ck=A6E0E43404F4DFB7E43EF842587F2CD9&selectedIndex=15&itb=0); /* Replace with your image URL */
+    background-size: cover; /* Ensure the image covers the full screen */
+    background-position: center center; /* Center the image */
+    background-attachment: fixed; /* Fixed background image */
+    background-repeat: no-repeat; /* Prevent repeating the background */
+    color: #333333; /* Default text color for body */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px; 
+  }
+  
+  
+  form {
+    background-color: rgba(255, 255, 255, 0.85);
+    width: 100%;
+    max-width: 600px;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8px); 
+  }
+  
+  
+  h1 {
+    font-size: 1.8rem;
+    color: #333333;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  p#description {
+    font-size: 1rem;
+    color: #666666;
+    text-align: center;
+    margin-bottom: 20px;
+    line-height: 1.6;  
+  }
+  
+   
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333333;
+  }
+  
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="number"],
+  select,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 1rem;
+    box-sizing: border-box; 
+  }
+  
+  
+  input[type="radio"],
+  input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  fieldset {
+    border: none;
+    padding: 0;
+    margin-bottom: 15px;
+  }
+  
+  legend {
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 5px;
+  }
+  
+  
+  button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  
+  input[type="text"]:focus,
+  input[type="email"]:focus,
+  input[type="number"]:focus,
+  select:focus,
+  textarea:focus {
+    outline: none;
+    border-color: #4CAF50;
+    box-shadow: 0 0 4px rgba(76, 175, 80, 0.5);
+  }
+  
+  button[type="submit"]:focus {
+    outline: 2px solid #45a049;
+    outline-offset: 2px;
+  }
+  
+  
+  @media (max-width: 600px) {
+    form {
+      width: 100%;
+      padding: 20px;
+    }
+  
+    h1 {
+      font-size: 1.5rem;
+    }
+  
+    button[type="submit"] {
+      font-size: 0.9rem;
+    }
+  }
+  

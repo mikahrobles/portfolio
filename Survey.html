@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="Survey Styles.css">
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Survey Form</title>
+</head>
+<body>
+<nav> <a href="index.html">Home</a></nav>
+  
+  <h1 id="title">Customer Satisfaction Survey</h1>
+
+  
+  <p id="description">Please fill out this survey to help us improve our service.</p>
+
+  
+  <form id="survey-form">
+    
+    
+    <label id="name-label" for="name">Name:</label>
+    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+    
+    <label id="email-label" for="email">Email:</label>
+    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+  
+    <label id="number-label" for="number">Age:</label>
+    <input type="number" id="number" name="age" min="18" max="100" placeholder="Enter your age" required>
+
+    
+    <label for="dropdown">Which service did you use?</label>
+    <select id="dropdown" name="service">
+      <option value="consulting">Consulting</option>
+      <option value="support">Support</option>
+      <option value="training">Training</option>
+    </select>
+
+    
+    <p>How satisfied are you with our service?</p>
+    <input type="radio" id="satisfied" name="satisfaction" value="satisfied">
+    <label for="satisfied">Satisfied</label><br>
+    <input type="radio" id="neutral" name="satisfaction" value="neutral">
+    <label for="neutral">Neutral</label><br>
+    <input type="radio" id="dissatisfied" name="satisfaction" value="dissatisfied">
+    <label for="dissatisfied">Dissatisfied</label><br>
+
+   
+    <p>What features do you use? (Select all that apply)</p>
+    <input type="checkbox" id="feature1" name="features" value="feature1">
+    <label for="feature1">Feature 1</label><br>
+    <input type="checkbox" id="feature2" name="features" value="feature2">
+    <label for="feature2">Feature 2</label><br>
+    <input type="checkbox" id="feature3" name="features" value="feature3">
+    <label for="feature3">Feature 3</label><br>
+
+ 
+    <label for="comments">Additional Comments:</label><br>
+    <textarea id="comments" name="comments" rows="4" cols="50"></textarea><br>
+
+    
+    <button type="submit" id="submit">Submit</button>
+
+  </form>
+
+</body>
+</html>

@@ -1,0 +1,22 @@
+#image {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 100%;
+    display: block;
+    margin: auto;
+  }
+  body {
+    background-color: tan;
+  }
+  .title {
+  text-align: center;
+  }
+
+  .NavBar {
+    text-align: center;
+  }
+
+  .img-caption {
+    text-align: center;
+  }

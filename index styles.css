@@ -1,0 +1,21 @@
+.Title {
+    text-align: center;
+    margin: auto;
+    background-color: white;
+    width: 35%;
+    height: 50%;
+}
+
+.NavBar {
+    text-align: center;
+    background-color: black;
+    width: 28%;
+    margin: auto;
+}
+
+.Body {
+    background-color: gray;
+    margin: auto;
+    width: 50%;
+    height: 50%;
+}
