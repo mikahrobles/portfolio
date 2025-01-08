@@ -1,0 +1,152 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+/* Hero Section */
+.Hero {
+    background-color: #0073e6;
+    color: #fff;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.Hero h1 {
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+
+.Hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #005bb5;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #003f7f;
+}
+
+/* Navigation Bar */
+.NavBar {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    padding: 10px 0;
+    list-style: none;
+    margin: 0;
+}
+
+.NavBar li {
+    margin: 0 15px;
+}
+
+.NavBar a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+}
+
+.NavBar a:hover {
+    color: #0073e6;
+}
+
+/* About Section */
+.About {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #fff;
+}
+
+.About h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.About p {
+    font-size: 1rem;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Services Section */
+.Services {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #f4f4f4;
+}
+
+.Services h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.ServiceCards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.Card {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 300px;
+}
+
+.Card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+/* Contact Section */
+.Contact {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #fff;
+}
+
+.Contact h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.contact-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0073e6;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.contact-button:hover {
+    background-color: #005bb5;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: #fff;
+    font-size: 0.9rem;
+}
