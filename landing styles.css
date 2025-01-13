@@ -1,4 +1,4 @@
-/* General Styles */
+
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
@@ -7,9 +7,9 @@ body {
     background-color: #f9f9f9;
 }
 
-/* Hero Section */
+
 .Hero {
-    background-color: #0073e6;
+    background-color: darkgray;
     color: #fff;
     text-align: center;
     padding: 60px 20px;
@@ -40,7 +40,7 @@ body {
     background-color: #003f7f;
 }
 
-/* Navigation Bar */
+
 .NavBar {
     display: flex;
     justify-content: center;
@@ -65,7 +65,7 @@ body {
     color: #0073e6;
 }
 
-/* About Section */
+
 .About {
     text-align: center;
     padding: 40px 20px;
@@ -83,7 +83,7 @@ body {
     margin: 0 auto;
 }
 
-/* Services Section */
+
 .Services {
     text-align: center;
     padding: 40px 20px;
@@ -115,11 +115,11 @@ body {
     margin-bottom: 10px;
 }
 
-/* Contact Section */
+
 .Contact {
     text-align: center;
     padding: 40px 20px;
-    background-color: #fff;
+    background-color: black;
 }
 
 .Contact h2 {
@@ -142,11 +142,11 @@ body {
     background-color: #005bb5;
 }
 
-/* Footer */
+
 footer {
     text-align: center;
     padding: 10px 0;
     background-color: #333;
-    color: #fff;
+    color: lightgray;
     font-size: 0.9rem;
 }
